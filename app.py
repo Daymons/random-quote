@@ -9,7 +9,7 @@ def main():
                         <title>Random quote</title>
                     </head>
                     <body>
-                        {random.choice(json.load(open("quotes.json")))}
+                        {random.choice(json.load(open("/var/www/random-quote/quotes.json")))}
                     </body>
                 </html>
             """
